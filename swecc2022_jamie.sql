@@ -60,4 +60,11 @@ CREATE TABLE Orders_jamie (
 INSERT INTO Customers_jamie (FirstName, LastName, Email, PhoneNumber)
 VALUES ("Jamie", "Bunch", "Jamiebunch@ymail.com", "561 867 5309");
 
-SELECT * FROM Customers_jamie
+SELECT * FROM Customers_jamie;
+
+INSERT INTO Address_jamie (StreetAddress, City, State, PostalCode, CustomerId)
+VALUES ("no", "no", "no", "58393", 1);
+
+SELECT * FROM Address_jamie;
+
+
