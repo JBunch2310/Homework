@@ -1,0 +1,12 @@
+-- CREATE DATABASE Swecc2022
+
+    DEFAULT CHARACTER SET = 'utf8mb4'
+CREATE TABLE Celebs (
+    Id INT,
+    Name TEXT,
+    Age INT
+);
+USE Swecc2022
+INSERT INTO Celebs
+VALUES (1,"Darie Dorlus",32)
+SELECT * FROM Celebs LIMIT 100;
