@@ -56,3 +56,8 @@ CREATE TABLE Orders_jamie (
     FOREIGN KEY (ProductId)
         REFERENCES Products_jamie (PaymentId)
 );
+
+INSERT INTO Customers_jamie (FirstName, LastName, Email, PhoneNumber)
+VALUES ("Jamie", "Bunch", "Jamiebunch@ymail.com", "561 867 5309");
+
+SELECT * FROM Customers_jamie
